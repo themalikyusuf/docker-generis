@@ -6,7 +6,7 @@ A tiny tool that helps you generate keys or passwords for your daily use.
 #### How to use the tool:
 
 ```
-$ docker run themalikyusuf/py-generis:v1.0.0
+$ docker run themalikyusuf/py-generis:latest
 MaRKAFG6EjHIqc09ocCW5-pl7qxK4jTJ4hd0BBxUiaE
 ```
 
