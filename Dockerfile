@@ -1,10 +1,10 @@
   
-FROM ruby:2.5.3-alpine
+FROM python:rc-alpine
 
 RUN apk update
 
-COPY ./generate.rb ./usr/local/bin/generate.rb
+COPY ./generate.py ./usr/local/bin/generate.py
 
-RUN chmod 0755 /usr/local/bin/generate.rb
+RUN chmod 0755 /usr/local/bin/generate.py
 
-ENTRYPOINT ["ruby", "./usr/local/bin/generate.rb"]
+ENTRYPOINT ["python", "./usr/local/bin/generate.py"]
